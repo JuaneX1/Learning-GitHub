@@ -1,0 +1,16 @@
+# This is the .gitignore file, often used to avoid pushing important stuff 
+# to public repositories such as API keys or environment variables that can
+# affect the health of the project. Below you will find some common syntax you
+# can use in .gitignore files - Juan. :)
+
+# Ignore all .log files
+*.log
+
+# Ignore a specific file
+secret_config.json
+
+# Ignore everything in a directory
+/cache/
+
+# But don't ignore a specific file in the ignored directory
+!cache/keep_this_file.txt
